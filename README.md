@@ -10,5 +10,5 @@ Python development tools in a Docker container.
 ## Usage
 
 ```
-$ docker run --rm -it --mount type=bind,src="$(pwd)",dst=/app --workdir /app larose/python-dev yapf --in-place --recursive .
+$ docker run --rm -it --mount type=bind,src="$(pwd)",dst=/app --workdir /app larose/python-dev:<tag> yapf --in-place --recursive .
 ```
