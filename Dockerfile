@@ -1,3 +1,3 @@
 FROM python:3.7-alpine
 
-RUN pip install yapf
+RUN pip install isort yapf
